@@ -1,0 +1,25 @@
+{
+  "name": "@liorbaraban/npm-test",
+  "version": "1.0.6",
+  "description": "This is a test",
+  "main": "dist/yellow.js",
+  "types": "dist/yellow.d.ts",
+  "scripts": {
+    "test": "mocha -r ts-node/register src/**/*.spec.ts",
+    "build": "tsc"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/chai": "^4.1.7",
+    "@types/chai-spies": "^1.0.0",
+    "@types/mocha": "^5.2.5",
+    "@types/node": "^10.12.19",
+    "chai": "^4.2.0",
+    "chai-spies": "^1.0.0",
+    "mocha": "^5.2.0",
+    "ts-node": "^8.0.2",
+    "typescript": "^3.2.4"
+  },
+  "dependencies": {}
+}
