@@ -25,3 +25,7 @@ export let returnTow = () => {
 let privateMethod = ()=>{
     console.log('this is private');
 }
+
+export let newFunction2020 = ()=>{
+    console.log('newFunction2020');
+}
