@@ -1,6 +1,6 @@
 {
   "name": "@liorbaraban/npm-test",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "This is a test",
   "main": "dist/yellow.js",
   "types": "dist/yellow.d.ts",
