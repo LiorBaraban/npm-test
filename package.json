@@ -2,8 +2,8 @@
   "name": "@liorbaraban/npm-test",
   "version": "1.0.12",
   "description": "This is a test",
-  "main": "dist/yellow.js",
-  "types": "dist/yellow.d.ts",
+  "main": "lib/yellow.js",
+  "types": "lib/yellow.d.ts",
   "scripts": {
     "test": "mocha -r ts-node/register src/**/*.spec.ts",
     "build": "tsc"
