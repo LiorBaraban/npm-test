@@ -1,13 +1,13 @@
 {
   "name": "@liorbaraban/npm-test",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "This is a test",
   "main": "dist/yellow.js",
   "types": "dist/yellow.d.ts",
   "scripts": {
     "test": "mocha -r ts-node/register src/**/*.spec.ts",
     "build": "tsc",
-    "publish": "npm publish ./dist"
+    "publish": "npm publish"
   },
   "author": "",
   "license": "ISC",
